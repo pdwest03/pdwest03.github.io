@@ -264,16 +264,6 @@ a.big-background-btn {
   background-size: cover;
 }
 
-/*.history-header {
-  padding-top: 100px;
-  height: 350px;
-  background: linear-gradient(#fff, transparent 70%),
-              linear-gradient(0deg, #fff, transparent 70%),
-              #ffa949 url('../img/Farm House Pano reduced copy.jpg') no-repeat center;
-  background-size: cover;
-}
-*/
-
 .title {
   color: rgba(255, 255, 255, .95);
   font-size: 1.625rem;  /* 26px/16px */ 
@@ -336,28 +326,6 @@ a.big-background-btn {
   max-width: 960px;
 }
 
-/*.history {*/
-  /*color: white;
-  text-align: left;
-  padding: 18% 24%;*/
-/*
-  margin: 105px 0 60px;
-  background: #434a52 url('../img/TreesDark.JPG') no-repeat center;
-  background-size: cover;
-  box-shadow: inset 0 0 50px 10px  rgba(0,0,0, 1);
-  border-radius: 10px;*/
-/*  width: 100%;
-  font-family:'Raleway',sans-serif;
-  font-size:40px;
-  background:#fff;
-  color:#3d566e;
-  padding:0 35px;
-  margin-bottom:22px;
-  background-attachment:scroll;
-  background-repeat:repeat-x;
-  background-position:center center;
-}*/
-
 
 .arrow {
   width: 50px;
@@ -366,9 +334,7 @@ a.big-background-btn {
 }
 
 
-
-/*TEST SECTION*/
-/* ABOUT SECTION
+/* ABOUT(HISTORY) SECTION
 ================================================== */
 .about-section {
     font-family:'Lato',sans-serif;
@@ -537,31 +503,6 @@ ul.wildlife-section-list {
 }
 
 
-/* Floated Columns ------------------ */
-
-/*.events,
-.wildlifes {
-  width: 50%;
-}
-
-.wildlifes {
-  float: left;
-}
-
-.events {
-  float: right;
-}*/
-
-/* Float Clearfix ------------------ */
-
-/*.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}*/
-
-
-
 /* SMALL VIDEO BACKGROUND 
 ================================================== */
 .small-background-section {
@@ -607,72 +548,32 @@ ul.wildlife-section-list {
 .socials a:hover {
     color:#bdc3c7
 }
-
-
-/*END TEST SECTION*/
-    
+   
 /* Media Queries -------------------- */ 
     
-@media (max-width: 1024px) {
-    .primary-content,
-    .secondary-content {
-      width: 100%;
-    }
-  .wildlife {
-    padding: 10% 12%;
-    margin: 50px 0 20px;
-}
-  }
-    
-@media (max-width: 768px) {
-  .primary-content,
-  .secondary-content {
-    width: 100%;
-    padding: 20px;
-    border: none;
-    }
-   .main-header {
-    max-height: 380px;
-    padding: 50px 25px 0;
-  }
-  .title {
-    font-size: 1.3rem;
-    border: none;
-  }
-  h1 {
-    font-size: 5rem;
-    line-height: 1.1;
-  }
-
-  .history {
-    font-size: 1rem;
-    width: 100%;
-  }
-  .events,
-  .wildlifes {
-    float: none;
-    width: 100%;
-    font-size: 1rem;
-  }
-  .main-footer {
-    padding: 20px 0;
-  }
-}
 @media screen and (max-width: 480px) {
-.big-background-title {
+  .big-background-title {
     font-size:58px;
 }
 @media screen and (max-width: 360px) {
-.big-background-title,#colorize {
+  .big-background-title,#colorize {
     line-height:1;
 }
 }
 
 @media screen and (max-width: 768px) {
-.about-section-title {
+  .about-section-title {
     line-height:1;
+  }
+  .event-section-title {   
+    line-height: 1;
+  }
+  .wildlife-section-title {
+    line-height: 1;
+  }
 }
-}
+
+
 
 
     
